@@ -12,4 +12,5 @@
 
 These are totally off the top of my head. We can expand as needed.
 
+------
 An alternative to this would be to find a package that already exists and does these things. In that case, this repo can become an example of how to use such a package.
