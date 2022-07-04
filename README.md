@@ -19,6 +19,7 @@ An alternative to this would be to find a package that already exists and does t
 Questions to be answered:
 --------------------------
 1. Zipping the files means we can only create them on one operating system (either Linux or Mac) because of this (https://unix.stackexchange.com/questions/570477/gzip-doesnt-produce-the-same-compressed-result-on-macos-vs-linux). I have a feeling that this extends across other linuxes as well as across Mac/Linux. It may not be worth ZIPing. File size comparison:
+
 | Type | Zipped | Not Zipped |
 |----|----|----|
 |Blooms|2.314 GB | 3.067 GB |
