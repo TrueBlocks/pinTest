@@ -1,9 +1,9 @@
 # IPFS Pin Test
 
-1. Make a package that we can use with these endpoings:
+1. Create a package called `manifest`
+   
+2. Make a package that we can use with these endpoings:
 
-|Function|Description|
-|---|---|
-|**manifest.Add(chain, range)**|pins both Bloom and Index (does not zip) and returns struct { Range:, BloomHash, IndexHash }|
-|**manifest.PinAll(chain)**|scans blooms and index for chain, pinning everything|
-|**manifest.ListPinata(all|chain)**||
+| Function                   | Description                                                                                                          |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **manifest.Add(fullPath)** | Given a full path to a file, pins the file locally (if IPFS is running) and remotely (assume user has the right key) |
