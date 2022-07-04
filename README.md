@@ -7,3 +7,7 @@
 | Function                   | Description                                                                                                          |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **pinning.Add(fullPath)** | Given a full path to a file, pins the file locally (if IPFS is running) and remotely (assume user has the right key) |
+| **pinning.List(remoteName)** | List pins on remote service |
+| **pinning.Remove(fullPath)** | Remove a pin from local or remote service |
+
+These are totally off the top of my head. We can expand as needed.
